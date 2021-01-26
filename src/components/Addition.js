@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 function Addition() { 
   const [sum, setSum] = useState(0);
-  const [clear, setClear] = useState(false);
+
 
 
 
@@ -28,23 +28,19 @@ function Addition() {
   function clearInput(e) { 
     e.preventDefault();
 
-    document.querySelector("form").reset();
-    setClear(true);
+    document.querySelector("#num1").value = "";
+    document.querySelector("#num2").value = "";
+ 
     setSum(0);
   }
 
   useEffect(() => { 
-    document.querySelector('#result').value = "";
+    document.querySelector('#result').value = "0";
   }, [])
 
-  useEffect(() => { 
-    if (clear) { 
-      document.querySelector('#result').value = "";
-    }
-  })
+ 
 
-
-
+  
 
 
 

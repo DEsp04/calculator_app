@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
 import Addition from "./Addition";
+import Substraction from "./Substraction";
 
 
 
@@ -13,7 +13,7 @@ function Calculator() {
     <form>
     
       <Addition />  
-
+      <Substraction />
     </form>
   );
 }
