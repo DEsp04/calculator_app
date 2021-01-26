@@ -36,21 +36,19 @@ form div {
 }
 
 button{
-  background-color: #d2ae3d;
+  background-color: #a90f1c;
   border: none;
   margin: 0 2px;
   outline: none;
   padding: 6px 11px;
   font-size: 1rem;
-  color: white;
+  color: #e0e2e4;
   font-weight: bolder;
-}
-
-button{
   cursor: pointer;
 }
 
 span {
-  color:#e0e2e4;
+  color:#d2ae3d;
   font-weight: bolder;
+  font-size: 1.5rem;
 }
