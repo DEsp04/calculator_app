@@ -41,11 +41,11 @@ function Substraction() {
   return (
     <div>
       <input type="text" id="num3" placeholder="enter number" />
-      <span>-</span>
+      <span>−</span>
       <input type="text" id="num4" placeholder="enter number" />
       <span>=</span>
       <input type="text" id="result2" readOnly value={substraction} />
-      <button onClick={(e) => substractNum(e)}>-</button>
+      <button onClick={(e) => substractNum(e)}>−</button>
       <button onClick={(e) => clearInput(e)}>Clear</button>
     </div>
   )

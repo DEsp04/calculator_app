@@ -1,4 +1,56 @@
-.App {
-  text-align: center;
+
+html {
+  height: 100%;
+  background-color: #1d2641;
 }
 
+body, #root, .App {
+  height: 800px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color:#e0e2e4;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  width: 80%;
+  background-color: #e0e2e454;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+form div {
+  margin: 5% 0;
+}
+
+button{
+  background-color: #d2ae3d;
+  border: none;
+  margin: 0 2px;
+  outline: none;
+  padding: 6px 11px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bolder;
+}
+
+button{
+  cursor: pointer;
+}
+
+span {
+  color:#e0e2e4;
+  font-weight: bolder;
+}
