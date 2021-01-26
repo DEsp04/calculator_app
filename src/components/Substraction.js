@@ -49,6 +49,6 @@ function Substraction() {
       <button onClick={(e) => clearInput(e)}>Clear</button>
     </div>
   )
-}
+};
 
 export default Substraction;

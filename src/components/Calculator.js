@@ -1,5 +1,6 @@
 import Addition from "./Addition";
 import Substraction from "./Substraction";
+import Division from "./Division";
 
 
 
@@ -14,6 +15,7 @@ function Calculator() {
     
       <Addition />  
       <Substraction />
+      <Division />
     </form>
   );
 }
